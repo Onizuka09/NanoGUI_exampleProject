@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/myTarget.dir/nanogui.cpp.o -o myTarget  -Wl,-rpath,/home/moktar/cpp_projects/cpp_graphics/nanogui nanogui/libnanogui.so -lGL -lXxf86vm -lXrandr -lXinerama -lXcursor -lXi -lX11 -lpthread -lrt -ldl 
