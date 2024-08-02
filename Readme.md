@@ -17,5 +17,14 @@ make -j 4
 sudo make install 
 ```
 
+# Running the app 
+```bash
+cmake .
+make -j4 
+./myTarget
+
+```
+
+![pic](./Resources/2024-08-03_00-05.png)
 ## Refrences
 [Post](https://www.linkedin.com/pulse/creating-custom-guis-c-deep-dive-low-level-graphics-ayman-alheraki-ttmdf/?trackingId=2Zwq9Uqs4SfNpwYavHIjRw%3D%3D)

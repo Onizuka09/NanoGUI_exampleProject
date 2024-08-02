@@ -3,6 +3,7 @@ project(NanoGUIExample)
 
 set(CMAKE_CXX_STANDARD 11)
 
+<<<<<<< HEAD
 # Find Eigen and NanoGUI
 # find_package(NanoGUI REQUIRED)
 
@@ -16,6 +17,9 @@ set(CMAKE_CXX_STANDARD 11)
 
 # # Link NanoGUI and other necessary libraries
 # target_link_libraries(NanoGUIExample ${NANOGUI_LIBRARIES} ${NANOGUI_EXTRA_LIBS})
+=======
+
+>>>>>>> 9b3851f (first commit)
 set(NANOGUI_BUILD_EXAMPLE OFF CACHE BOOL " " FORCE)
 set(NANOGUI_BUILD_PYTHON  OFF CACHE BOOL " " FORCE)
 set(NANOGUI_INSTALL       OFF CACHE BOOL " " FORCE)
