@@ -18,7 +18,9 @@ sudo make install
 ```
 
 # Running the app 
+
 ```bash
+git clone git@github.com:Onizuka09/NanoGUI_exampleProject.git --recursive 
 cmake .
 make -j4 
 ./myTarget
